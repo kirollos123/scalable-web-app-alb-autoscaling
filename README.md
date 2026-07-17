@@ -78,7 +78,7 @@ cp source/infrastructure/terraform.tfvars.example source/infrastructure/terrafor
 # edit terraform.tfvars: set project_name, domain_name (optional), alert_email
 
 # 2. Set the DB master password (never commit this)
-export TF_VAR_db_password="YourStrongPassword123!"
+export TF_VAR_db_password="kirollos"
 
 # 3. Validate
 ./deployment/run-unit-tests.sh
@@ -106,4 +106,4 @@ To tear everything down: `./deployment/deploy.sh destroy <your-aws-profile>`
 MIT — see [LICENSE](LICENSE).
 =======
 # scalable-web-app-alb-autoscaling
->>>>>>> cc32da69133820d7ef7f65b349d33969e037ded9
+
