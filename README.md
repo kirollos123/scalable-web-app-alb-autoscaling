@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Scalable Web Application with ALB and Auto Scaling
 
 Production-grade, highly-available web application infrastructure on AWS, built with Terraform. Deploys EC2 instances inside a properly architected VPC across two Availability Zones, fronted by an Application Load Balancer and CloudFront, with a Multi-AZ RDS backend.
