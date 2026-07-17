@@ -17,5 +17,5 @@ output "rds_endpoint" {
 }
 
 output "application_url" {
-  value = var.domain_name != "" ? "https://${var.domain_name}" : "https://${aws_cloudfront_distribution.main.domain_name}"
+  value = "http://${aws_lb.main.dns_name}"
 }

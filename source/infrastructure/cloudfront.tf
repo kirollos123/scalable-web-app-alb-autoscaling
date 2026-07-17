@@ -41,7 +41,7 @@ resource "aws_cloudfront_distribution" "main" {
   }
 
   viewer_certificate {
-    cloudfront_default_certificate = true
+   # cloudfront_default_certificate = true
     # For a custom domain, replace with an ACM certificate in us-east-1:
     # acm_certificate_arn = aws_acm_certificate.cdn.arn
     # ssl_support_method  = "sni-only"
