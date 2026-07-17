@@ -84,13 +84,13 @@ export TF_VAR_db_password="kirollos"
 ./deployment/run-unit-tests.sh
 
 # 4. Plan and apply
-./deployment/deploy.sh plan  <your-aws-profile>
-./deployment/deploy.sh apply <your-aws-profile>
+./deployment/deploy.sh plan  <>
+./deployment/deploy.sh apply <>
 ```
 
 After apply finishes, Terraform will output the CloudFront domain name (or your custom domain, if configured) — that's your live application URL.
 
-To tear everything down: `./deployment/deploy.sh destroy <your-aws-profile>`
+To tear everything down: `./deployment/deploy.sh destroy <>`
 
 ## Learning Outcomes
 
