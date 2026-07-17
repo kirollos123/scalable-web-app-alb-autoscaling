@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Scalable Web Application with ALB and Auto Scaling
 
 Production-grade, highly-available web application infrastructure on AWS, built with Terraform. Deploys EC2 instances inside a properly architected VPC across two Availability Zones, fronted by an Application Load Balancer and CloudFront, with a Multi-AZ RDS backend.
@@ -103,3 +104,6 @@ To tear everything down: `./deployment/deploy.sh destroy <your-aws-profile>`
 ## License
 
 MIT — see [LICENSE](LICENSE).
+=======
+# scalable-web-app-alb-autoscaling
+>>>>>>> cc32da69133820d7ef7f65b349d33969e037ded9
