@@ -1,0 +1,8 @@
+aws_region   = "us-east-1"
+project_name = "scalable-web-app"
+
+# domain_name  = "example.com"   # سيبه فاضي لو لسه معندكش دومين
+alert_email  = ""                 # حط إيميلك هنا عشان تستقبل تنبيهات CloudWatch
+
+# لازم تتحط عن طريق: export TF_VAR_db_password="Your-Strong-Password"
+# متسيبهاش هنا في الملف ده وتعمله commit
